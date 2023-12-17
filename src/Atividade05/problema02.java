@@ -18,9 +18,9 @@ herdam a classe VIP. */
 public class problema02 {
     public static void main(String[] args) {
         Ingresso ingresso = new Ingresso(100f);
-        VIP vip = new VIP(ingresso, 50f);
-        Normal normal = new Normal(ingresso);
-        CamaroteInferior camaroteInferior = new CamaroteInferior(vip, "A1");
+        VIP vip = new VIP(40, 50);
+        Normal normal = new Normal(20);
+        CamaroteInferior camaroteInferior = new CamaroteInferior(40,20, "A1");
         CamaroteSuperior camaroteSuperior = new CamaroteSuperior(50f);
 
         System.out.println("Ingresso: " + ingresso.imprimeValor());

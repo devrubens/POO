@@ -8,7 +8,7 @@ public class Ingresso {
         this.valor = valor;
     }
 
-    public void imprimeValor() {
-        System.out.println("Valor do ingresso: " + valor);
+    public String imprimeValor() {
+        return "Valor do ingresso: " + valor;
     }
 }
